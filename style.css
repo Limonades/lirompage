@@ -20,6 +20,12 @@ body {
     margin: 0 auto;
 }
 
+@media screen and (max-width: 1023px) {
+    .glitch {
+        font-size: 9vw;
+    }
+}
+
 @keyframes noise-anim {
     0% {
         clip: rect(54px, 9999px, 70px, 0);
